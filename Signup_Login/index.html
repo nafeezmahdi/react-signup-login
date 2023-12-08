@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign - Login</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sign-up">
+        <div class="text">Sign Up</div>
+        <div class="underline"></div>
+      </div>
+
+      <div class="inputs">
+        <div class="input">
+          <img src="images/person.png" alt="Person Sign" />
+          <input type="text" placeholder="Name" />
+        </div>
+        <div class="input">
+          <img src="images/email.png" alt="Email Sign" />
+          <input type="email" placeholder="Email ID" />
+        </div>
+        <div class="input">
+          <img src="images/password.png" alt="Password Sign" />
+          <input type="password" placeholder="Password" />
+        </div>
+        <div class="input radio-box">
+          <div class="age">
+            <fieldset>
+              <legend class="legend">Age</legend>
+              <input
+                type="radio"
+                name="age-input"
+                id="under-18"
+                value="under-18"
+              />
+              <label for="over-18">Under 18</label>
+              <input
+                type="radio"
+                name="age-input"
+                id="over-18"
+                value="over-18"
+              />
+              <label for="over-18">Over 18</label>
+            </fieldset>
+          </div>
+          <div class="gender">
+            <fieldset>
+              <legend class="legend">Gender</legend>
+              <div class="gender-radio">
+                <div>
+                  <input
+                    type="radio"
+                    name="gender-input"
+                    id="male"
+                    value="male"
+                  />
+                  <label for="male">Male</label>
+                </div>
+                <div>
+                  <input
+                    type="radio"
+                    name="gender-input"
+                    id="female"
+                    value="female"
+                  />
+                  <label for="female">Female</label>
+                </div>
+                <div>
+                  <input
+                    type="radio"
+                    name="gender-input"
+                    id="other"
+                    value="other"
+                  />
+                  <label for="other">Other</label>
+                </div>
+              </div>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+
+      <div class="password-text">
+        Lost Password? <span class="click-here-text">Click Here!</span>
+      </div>
+      <div class="two-button">
+        <div type="submit" class="btn gray">Sign UP</div>
+        <div type="submit" class="btn">Login</div>
+      </div>
+    </div>
+  </body>
+</html>
